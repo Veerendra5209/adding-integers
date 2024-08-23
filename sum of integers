@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main() {
+    int num1 = 100;
+    int num2 = 10;
+    int result;
+
+    // Add the two numbers
+    result = num1 + num2;
+
+    // Print the result
+    printf("The sum of %d and %d is %d\n", num1, num2, result);
+
+    return 0;
+}
